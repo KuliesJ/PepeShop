@@ -3,6 +3,7 @@ package runtime
 // import
 import user.User
 import userInterface.UI
+import product.Product
 
 object main extends App{
   val Menu = new UI()
@@ -10,13 +11,4 @@ object main extends App{
     Menu.MainMenu
 
   }
-  /*println(
-    "----------------------------\n" +
-    "| 1.- Test User class\n" +
-    "| 2.- Add tests\n" +
-      "Choose option: ")
-  var UserInput = scala.io.StdIn.readLine()
-
-  val testUser = new User("Carlitos")
-  testUser.hello()*/
 }
